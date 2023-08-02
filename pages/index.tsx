@@ -42,20 +42,13 @@ const pageName = 'willkommen'
 const WelcomePage: FC = () => (
 	<Page pageName={pageName}>
 
-		<Subtitle timeout={1000} block>
-			{getText(`pages.${pageName}.content.subtitle`)}
-		</Subtitle>
-
-		<Booklist/>
-		
-		
-		<BigTitle timeout={1500} color="orange" marginTop={10} marginBottom={0}>
+		<Paragraph timeout={800}>
+			<Booklist/>
 			{getText(`pages.${pageName}.content.individual`)}
-		</BigTitle>
-
-		<BigTitle timeout={1800} color="blue" marginTop={10}>
-			{getText(`pages.${pageName}.content.sustainable`)}
-		</BigTitle>
+			<BigTitle color="purple" marginTop={10} marginBottom={0}>
+				{getText(`pages.${pageName}.content.sustainable`)}
+			</BigTitle>
+		</Paragraph>
 		
 		<PaymentGatewayList startTimeout={1300} block marginTop={10} marginBottom={3}/>
 

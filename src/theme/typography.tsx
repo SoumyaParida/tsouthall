@@ -1,5 +1,5 @@
 const sansSerifFont = 'Lato, sans-serif'
-const monospaceFont = '"PT Mono", monospace'
+//const monospaceFont = '"PT Mono", monospace'
 const baseFontSize = 16
 const baseFontWeight = 400
 const typography = {

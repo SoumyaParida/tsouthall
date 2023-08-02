@@ -1,7 +1,6 @@
 import { FC } from 'react'
 import styled from 'styled-components'
 import AnimatedInText from '../AnimatedInText'
-import MobilePicture from '../MobilePicture'
 
 const IconsWrapper = styled.div`
 	margin-bottom: 10px;
